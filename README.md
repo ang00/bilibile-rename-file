@@ -24,3 +24,10 @@ import shutil
   * 使用第三方 jq
 
 > 安装 jq [https://stedolan.github.io/jq/download/](https://stedolan.github.io/jq/download/)
+
+* golang
+  * 引入第三方 gjson [https://github.com/tidwall/gjson](https://github.com/tidwall/gjson)
+```shell
+//导入第三方 json 解析
+go get -u github.com/tidwall/gjson
+```
